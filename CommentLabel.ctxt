@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CommentLabel
+comment0.text=\r\n\ This\ class\ represents\ each\ "CommentLabel",\ it\ derives\ information\ from\ a\ comment\ object\r\n\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=comment
+comment1.target=CommentLabel(Comment)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Comments\r\n
+comment2.params=
+comment2.target=void\ makeLabel()
+comment2.text=\r\n\ creates\ the\ inner\ content\ of\ the\ "label"\r\n
+numComments=3

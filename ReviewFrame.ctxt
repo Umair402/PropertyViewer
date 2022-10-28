@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ReviewFrame
+comment0.text=\r\n\ ReviewFrame\ is\ a\ basic\ review\ frame\ that\ allows\ the\ user\ to\ submit\ their\ own\ reviews\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\r\n\ initialises\ the\ review\ frame\ when\ loaded,\ and\ sets\ the\ button\ functionality\r\n
+comment2.params=
+comment2.target=void\ closeFrame()
+comment2.text=\r\n\ closes\ the\ frame\r\n
+comment3.params=event
+comment3.target=void\ commentSelection(javafx.event.ActionEvent)
+comment3.text=\r\n\ called\ with\ submit\ button,\ will\ validate\ the\ text\ fileds\ and\ then\ use\ IOController\ to\ write\ data\ into\ textfile\r\n\ @param\ event\r\n
+numComments=4

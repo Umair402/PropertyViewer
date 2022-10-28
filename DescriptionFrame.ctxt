@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DescriptionFrame
+comment0.text=\r\n\ The\ description\ frame\ is\ a\ basic\ frame\ that\ contains\ information\ of\ a\ property\ when\ clicked\ in\ the\ TableView\r\n\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\r\n\ Called\ when\ created,\ will\ create\ the\ labels\ that\ store\ the\ information\ ,\ and\ functionailty\ to\ the\ button\ which\ launches\ the\ review\ panel\r\n
+comment2.params=event
+comment2.target=void\ initReviewFrame(javafx.event.ActionEvent)
+comment2.text=\r\n\ creates\ the\ review\ frame,\ when\ the\ button\ is\ called\r\n\ @param\ event\r\n
+comment3.params=
+comment3.target=void\ setLabels()
+comment3.text=\r\n\ sets\ labels\ of\ description\ frame\ with\ values\ from\ listing\r\n
+numComments=4

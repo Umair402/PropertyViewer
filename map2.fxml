@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane fx:id="mapBPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MapPanel">
+   <center>
+      <Pane id="backPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="752.0" stylesheets="@css/styleMap.css">
+         <children>
+            <Button fx:id="ENFI" alignment="CENTER" layoutX="352.0" layoutY="9.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="ENFI" />
+            <Button fx:id="ISLI" alignment="CENTER" layoutX="351.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="ISLI" />
+            <Button fx:id="BARN" alignment="CENTER" layoutX="239.0" layoutY="71.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="BARN" />
+            <Button fx:id="REDB" alignment="CENTER" layoutX="503.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="REDB" />
+            <Button fx:id="HACK" alignment="CENTER" layoutX="427.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HACK" />
+            <Button fx:id="CAMD" alignment="CENTER" layoutX="276.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="CAMD" />
+            <Button fx:id="HRGY" alignment="CENTER" layoutX="314.0" layoutY="71.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HRGY" />
+            <Button fx:id="WALT" alignment="CENTER" layoutX="389.0" layoutY="71.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="WALT" />
+            <Button fx:id="HAVE" alignment="CENTER" layoutX="580.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HAVE" />
+            <Button fx:id="KENS" alignment="CENTER" layoutX="239.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="KENS" />
+            <Button fx:id="HILL" alignment="CENTER" layoutX="88.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HILL" />
+            <Button fx:id="TOWH" alignment="CENTER" layoutX="389.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="TOWH" />
+            <Button fx:id="WSTM" alignment="CENTER" layoutX="313.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="WSTM" />
+            <Button fx:id="EALI" alignment="CENTER" layoutX="164.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="EALI" />
+            <Button fx:id="HRRW" alignment="CENTER" layoutX="125.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HRRW" />
+            <Button fx:id="BREN" alignment="CENTER" layoutX="201.0" layoutY="134.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="BREN" />
+            <Button fx:id="NEWH" alignment="CENTER" layoutX="465.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="NEWH" />
+            <Button fx:id="BEXL" alignment="CENTER" layoutX="504.0" layoutY="258.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="BEXL" />
+            <Button fx:id="HOUN" alignment="CENTER" layoutX="126.0" layoutY="258.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HOUN" />
+            <Button fx:id="GWCH" alignment="CENTER" layoutX="428.0" layoutY="258.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="GWCH" />
+            <Button fx:id="CITY" alignment="CENTER" layoutX="352.0" layoutY="258.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="CITY" />
+            <Button fx:id="MERT" alignment="CENTER" layoutX="239.0" layoutY="320.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="MERT" />
+            <Button fx:id="HAMM" alignment="CENTER" layoutX="202.0" layoutY="258.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="HAMM" />
+            <Button fx:id="WAND" alignment="CENTER" layoutX="277.0" layoutY="258.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="WAND" />
+            <Button fx:id="BARK" alignment="CENTER" layoutX="541.0" layoutY="196.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="BARK" />
+            <Button fx:id="KING" alignment="CENTER" layoutX="201.0" layoutY="382.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="KING" />
+            <Button fx:id="CROY" alignment="CENTER" layoutX="351.0" layoutY="382.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="CROY" />
+            <Button fx:id="STWH" alignment="CENTER" layoutX="388.0" layoutY="320.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="STWH" />
+            <Button fx:id="LEWS" alignment="CENTER" layoutX="465.0" layoutY="320.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="LEWS" />
+            <Button fx:id="SUTT" alignment="CENTER" layoutX="276.0" layoutY="382.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="SUTT" />
+            <Button fx:id="RICH" alignment="CENTER" layoutX="163.0" layoutY="320.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="RICH" />
+            <Button fx:id="LAMB" alignment="CENTER" layoutX="313.0" layoutY="320.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="LAMB" />
+            <Button fx:id="BROM" alignment="CENTER" layoutX="426.0" layoutY="382.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="70.0" text="BROM" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

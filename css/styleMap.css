@@ -1,0 +1,27 @@
+.button {
+
+    -fx-font: 12px "Arial";
+    -fx-background-color: #f1f4f5;
+    -fx-border-width: 0.1px;
+    -fx-border-color: black;
+
+    -fx-shape: "M 300 200 L 200 250 L 200 350 L 300 400 L 400 350 L 400 250 Z";
+}
+
+.button:hover{
+    -fx-background-color: #cfebf5;
+    -fx-font: 13px "Arial";
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+
+#infoSideBar{
+    -fx-background-color: rgba(146, 212, 248, 0.13);
+    -fx-font-weight: bold;
+    -fx-border-width: 0.1px;
+    -fx-border-color: black;
+}
+
+
+

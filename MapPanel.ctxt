@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MapPanel
+comment0.text=\r\n\ The\ mapPanel\ is\ the\ 2\ panel\ which\ shows\ the\ interactive\ map\r\n\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\r\n\ initliased\ when\ created,\ will\ compute\ valid\ properties\ and\ created\ a\ side\ label\r\n
+comment2.params=areaName
+comment2.target=void\ initTableFrame(java.lang.String)
+comment2.text=\r\n\ initialises\ the\ opens\ a\ table\ frame\ when\ a\ map\ button\ is\ clicked\r\n\ @param\ areaName,\ will\ show\ the\ table\ data\ for\ the\ areaname\ chosen\r\n
+comment3.params=area
+comment3.target=javafx.scene.Node\ setButtonInfoLabel(java.lang.String)
+comment3.text=\r\n\ will\ show\ a\ right\ side\ label\ displaying\ the\ number\ of\ properties\ and\ full\ name\ of\ the\ borough\r\n\ @param\ area\ to\ be\ seen\ on\ side\ label\r\n\ @return\ vbox\ of\ the\ right\ side\ label\r\n
+comment4.params=area\ button
+comment4.target=void\ setButtonState(java.lang.String,\ javafx.scene.control.Button)
+comment4.text=\r\n\ sets\ the\ states\ of\ all\ the\ buttons.\ states\ include\ the\ colour\ of\ the\ button\ and\ whether\ it's\ disabled\r\n
+comment5.params=
+comment5.target=void\ setButtons()
+comment5.text=\r\n\ sets\ functionailty\ of\ the\ buttons\ to\ open\ the\ appropiate\ tableview\ when\ clicked,\ also\ calls\ to\ set\ the\ state\ of\ the\ button\r\n
+numComments=6

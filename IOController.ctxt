@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IOController
+comment0.text=\r\n\ Controls\ File\ IO\ used\ to\ store\ and\ read\ comments\r\n\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=
+comment1.target=IOController()
+comment1.text=\r\n\ Constructor\ will\ check\ if\ the\ files\ exists\ or\ will\ create\ a\ new\ one\r\n
+comment2.params=comment
+comment2.target=void\ writeToFile(Comment)
+comment2.text=\r\n\ writes\ a\ comment\ to\ the\ file\r\n\ @param\ comment\r\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getAllComments()
+comment3.text=\r\n\ gets\ all\ comments\ in\ the\ file\r\n\ @return\ arraylist\ of\ comments\r\n
+numComments=4

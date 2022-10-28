@@ -1,0 +1,67 @@
+#welcomeLabel {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: radial-gradient(focus-angle 45deg, focus-distance 20%, center 25% 25%, radius 50%, reflect, red, blue 75%, green)
+}
+
+#introLabel {
+    -fx-font-size: 16px;
+
+}
+
+#welcomePanel{
+    -fx-content-display: center;
+}
+
+#menuBar {
+    -fx-background-color: #8ea9bf;
+}
+
+#toolBar , #bottomBar{
+    -fx-padding: 12;
+    -fx-spacing: 12;
+    -fx-background-color: #6e8da3;
+}
+
+#bottomBar {
+    -fx-background-color: rgba(255, 255, 255, 0);
+}
+
+#bottomBar .button {
+    -fx-font: 12px "Arial";
+    -fx-pref-width: 60px;
+}
+
+#sideBar {
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-padding: 15px;
+    -fx-spacing: 15px;
+    -fx-end-margin: 1px;
+}
+#sideBar .button {
+    -fx-pref-width:95px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #b4b4b4;
+    -fx-font: 13px "Arial";
+    -fx-border-width: 1px;
+    -fx-border-color: "black";
+    -fx-font-weight: bold;
+}
+
+#sideBar .button:hover {
+    -fx-background-color: #c1b3b3;
+    -fx-font: 13px "Arial";
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+
+
+#mapContent{
+    -fx-background-color: rgba(255, 255, 255, 0);
+}
+
+#toolBar {
+    -fx-border-color: "black";
+    -fx-border-width: 0.1px;
+}

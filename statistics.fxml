@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StatisticsController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="199.0" minHeight="10.0" prefHeight="175.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="255.0" minHeight="10.0" prefHeight="155.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <left>
+            <Button mnemonicParsing="false" onAction="#backStatisticButtonAction1" prefHeight="145.0" prefWidth="25.0" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button mnemonicParsing="false" onAction="#nextStatisticButtonAction1" prefHeight="145.0" prefWidth="25.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <center>
+            <Label fx:id="label1" alignment="CENTER" prefHeight="136.0" prefWidth="238.0" text="Statistics1" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <left>
+            <Button mnemonicParsing="false" onAction="#backStatisticButtonAction2" prefHeight="145.0" prefWidth="25.0" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button mnemonicParsing="false" onAction="#nextStatisticButtonAction2" prefHeight="145.0" prefWidth="25.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <center>
+            <Label fx:id="label2" alignment="CENTER" prefHeight="136.0" prefWidth="238.0" text="Statistics2" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <left>
+            <Button mnemonicParsing="false" onAction="#backStatisticButtonAction3" prefHeight="145.0" prefWidth="25.0" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button mnemonicParsing="false" onAction="#nextStatisticButtonAction3" prefHeight="145.0" prefWidth="25.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+         <center>
+            <Label fx:id="label3" alignment="CENTER" prefHeight="136.0" prefWidth="238.0" text="Statistics3" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <center>
+            <Label fx:id="label4" alignment="CENTER" prefHeight="136.0" prefWidth="238.0" text="Statistics4" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+         </center>
+         <left>
+            <Button mnemonicParsing="false" onAction="#backStatisticButtonAction4" prefHeight="145.0" prefWidth="25.0" text="&lt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </left>
+         <right>
+            <Button mnemonicParsing="false" onAction="#nextStatisticButtonAction4" prefHeight="145.0" prefWidth="25.0" text="&gt;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </BorderPane.margin>
+            </Button>
+         </right>
+      </BorderPane>
+   </children>
+</GridPane>

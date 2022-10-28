@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=AirbnbDataCompute
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AirbnbDataCompute\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=AirbnbDataCompute()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AirbnbDataCompute\r\n
+comment2.params=x\ y
+comment2.target=void\ setPriceRange(int,\ int)
+comment3.params=
+comment3.target=void\ getValidProperties()
+comment4.params=
+comment4.target=void\ setValidProperties()
+comment5.params=area
+comment5.target=java.util.ArrayList\ getAreaProperties(java.lang.String)
+comment6.params=area
+comment6.target=int\ getnumOfProperties(java.lang.String)
+comment7.params=area
+comment7.target=java.lang.Boolean\ propertyExist(java.lang.String)
+comment8.params=neighbourhood\ minPrice\ maxPrice
+comment8.target=java.util.ArrayList\ getNeighbourhoodListing(java.lang.String,\ int,\ int)
+comment8.text=\r\n\ Returns\ the\ list\ of\ all\ the\ properties\ in\ the\ neighbourhood\ after\ checking\ for\ the\ given\ conditions\r\n\ @param\ neighbourhood\ the\ neighbourhood\ which\ the\ user\ has\ selectied\r\n\ @param\ minPrice\ the\ minimum\ price\ of\ the\ property\r\n\ @param\ maxPrice\ the\ maximum\ price\ of\ the\ property\r\n\ @return\ the\ list\ of\ all\ the\ properties\ satisfying\ the\ given\ conditions\r\n
+comment9.params=minPrice\ maxPrice\ type
+comment9.target=java.util.ArrayList\ getMapListing(int,\ int,\ java.lang.String)
+numComments=10

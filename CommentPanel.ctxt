@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommentPanel
+comment0.text=\r\n\ The\ 4th\ panel\ ,\ which\ contains\ all\ the\ user\ created\ comments\ on\ a\ scrollpane\r\n\ comments\ are\ added\ on\ as\ CommentLabel\ objects\r\n\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=
+comment1.target=CommentPanel()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CommentPanel\r\n
+comment2.params=
+comment2.target=void\ buildUI()
+comment2.text=\r\n\ creates\ the\ UI\ of\ the\ panel\:\ a\ scrollPane\r\n
+comment3.params=
+comment3.target=void\ addComment()
+comment3.text=\r\n\ adds\ comments\ to\ the\ scrollPane\ (this),\ will\ communicate\ with\ IOController\ to\ get\ a\ list\ of\ all\ comments\r\n
+numComments=4

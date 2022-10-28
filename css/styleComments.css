@@ -1,0 +1,15 @@
+#boroughLabel {
+    -fx-font: 17px "Arial";
+}
+
+#nameLabel {
+    -fx-font: 15px "Arial";
+}
+
+#contentLabel {
+    -fx-font: 13px "Arial";
+}
+
+#commentTitleLabel {
+    -fx-font: 21px "Arial";
+}

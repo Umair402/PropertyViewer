@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Dialogs
+comment0.text=\r\n\ Creates\ very\ basic\ dialogs\r\n\r\n\ @authors\ Umair\ Qureshi\ (K21088867)\ Abdul\ Mallah\ (19033553)\ ,\ Jingyi\ Wang\ (K20057806)\ ,\ Zhihao\ Wu\ (K21040194)\r\n
+comment1.params=alertType\ title\ text
+comment1.target=void\ basicDialog(javafx.scene.control.Alert.AlertType,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ gets\ all\ param\ information\ and\ creates\ a\ basicDialog\r\n\ @param\ alertType\r\n\ @param\ title\r\n\ @param\ text\r\n
+comment2.params=
+comment2.target=void\ invalidRangeError()
+comment2.text=\r\n\ invalid\ range\ error\ dialog\ called\ when\ user\ inputs\ a\ range\ where\ the\ lowerRange\ >\ upperRange\r\n
+comment3.params=
+comment3.target=void\ aboutInfoDialog()
+comment3.text=\r\n\ about\ info\ dialog\ called\ when\ user\ wnats\ to\ see\ information\ about\ Airbnb\ london\r\n
+comment4.params=
+comment4.target=void\ helpInfoDialog()
+comment4.text=\r\n\ help\ dialog\ will\ show\ when\ user\ wants\ to\ see\ help\ about\ airbnb\ london\r\n
+comment5.params=
+comment5.target=void\ fillBoxesError()
+comment5.text=\r\n\ fill\ boxes\ error\ called\ when\ boxes\ are\ not\ fill\ in\ the\ review\ frame\r\n
+numComments=6
